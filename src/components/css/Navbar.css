@@ -1,0 +1,28 @@
+:root {
+  --bg-color: #f2f5fa;
+  --fnt-color: #3c3a46;
+  --white: #ffffff;
+}
+
+.navbar {
+  height: 100vh;
+  width: 7%;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  list-style: none;
+  height: 50%;
+}
+
+.nav-item {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: inherit;
+}
