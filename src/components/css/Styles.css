@@ -2,32 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
 }
 
 :root {
-  --bg-color: #f2f5fa;
-  --fnt-color: #3c3a46;
-  --white: #ffffff;
+  --white: #fff;
+  --bg-grd-1: #e9e6f3;
+  --bg-grd-2: #e0effa;
 }
 
 body {
-  background: var(--bg-color);
-  color: var(--fnt-color);
-}
-
-.container {
-  height: 100vh;
-  width: 93%;
-  justify-content: center;
-  align-items: center;
-  overflow-y: scroll;
-}
-
-.dashboard {
-  height: 90%;
-  width: 98%;
-  margin-left: -0.7em;
-  border: 1px solid transparent;
-  border-radius: 15px;
-  background: var(--white);
+  background: linear-gradient(45deg, var(--bg-grd-1), var(--bg-grd-2)),
+    no-repeat, content-box;
 }

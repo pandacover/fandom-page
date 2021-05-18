@@ -1,18 +1,16 @@
 import React from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
 import Navbar from './Navbar';
-import Main from './Main';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
-function app() {
+function App() {
 	return (
 		<Router>
-			<div className="flex flex-r">
-				<Navbar />
-				<Main />
-			</div>
+		<div className="container">
+			<Navbar />
+		</div>
 		</Router>
 	)
 }
 
-export default app
+export default App
